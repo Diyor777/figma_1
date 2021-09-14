@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 87%;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.list-items {
+    margin-right: -120px;
+}
+
+.list-items .active {
+    color: #FA4A0C;
+    transition: 0.4s ease;
+}
+
+.list-items .active:hover {
+    color: #252B42;
+}
+
+.list-items a {
+    transition: 0.3s;
+    padding-right: 120px;
+    font-weight: 700;
+    color: #252B42;
+    text-decoration: none;
+}
+
+.list-items a:not(.active):hover {
+    color: #FA4A0C;
+}
+
+/* ----- */
+
+.container {
+    background-image: url(../img/Rectangle\ 48.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.food-app .food-app-titles {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.food-app .food-app-titles p {
+    color: #f7f7f7;
+}
+
+.food-app .food-app-titles .food-title-1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.food-app .food-app-titles .food-title-2 {
+    font-size: 58px;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+
+.food-app .food-app-titles .food-title-3 {
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+/* ------------- */
+
+.food-app .buttons-stories {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.food-app .buttons-stories .play-store {
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 20px;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color: #FA4A0C;
+    border: none;
+    border-radius: 29px;
+    width: 220px;
+    height: 65px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: 0.3s ease;
+}
+
+.food-app .buttons-stories .play-store:hover {
+    border: 1px solid #fff;
+    background: none;
+}
+
+.food-app .buttons-stories .app-store {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 20px;
+    letter-spacing: 3px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 220px;
+    height: 65px;
+    border-radius: 29px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: 0.3s ease;
+}
+
+.food-app .buttons-stories .app-store:hover {
+    background-color: #FA4A0C;
+    border: none;
+}
+
+/* -------------------- */
+
+.images-of-phones {
+    margin-top: -50px;
+    margin-left: 520px;
+    width: 750px;
+    height: 800px;
+    display: grid;
+    align-content: center;
+    padding-bottom: 50px;
+}
+
+/* -------------------------------------------------------- */
+
+.content {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.underline {
+    width: 100%;
+    height: 3px;
+    background-color: #E4E4E4;
+}
+
+.app-work-title p {
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.app-works {
+    display: flex;
+    align-items: center;
+}
+
+.app-works .create-login {
+    margin-left: 50px;
+}
+
+.app-works .create-login .create-1 {
+    color: #FA4A0C;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.app-works .create-login .create-2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.app-works .create-login .create-3 {
+    color: #737373;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* ------------------------- */
+
+.shop-food {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop-food .varieties .varieties-1 {
+    color: #FA4A0C;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.shop-food .varieties .varieties-2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.shop-food .varieties .varieties-3 {
+    color: #737373;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* -------------------------------- */
+
+.payment {
+    display: flex;
+    align-items: center;
+}
+
+.payment .checking {
+    margin-left: 80px;
+}
+
+.payment .checking .checkout-1 {
+    color: #FA4A0C;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.payment .checking .checkout-2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.payment .checking .checkout-3 {
+    color: #737373;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* ------------- */
+
+.download-app {
+    padding: 180px 0;
+    background-image: url(../img/Rectangle\ 47.png);
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.download-app .app-block .download-1 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+.download-app .app-block .download-2 {
+    color: #fff;
+    font-size: 24px;
+}
+
+/* buttons */
+
+.download-app .buttons-stories {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.download-app .buttons-stories .play-store {
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 20px;
+    color: #fff;
+    background-color: #FA4A0C;
+    border: none;
+    border-radius: 10px;
+    width: 180px;
+    height: 80px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.download-app .buttons-stories .play-store:hover {
+    border: 1px solid #fff;
+    background: none;
+}
+
+.download-app .buttons-stories .app-store {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 20px;
+    letter-spacing: 3px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 180px;
+    height: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.download-app .buttons-stories .app-store:hover {
+    background-color: #FA4A0C;
+    border: none;
+}
+
+/* ------------- */
+
+footer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+footer .social-items {
+    padding-left: 60px;
+}
+
+footer .social-items i {
+    color: #FA4A0C;
+    padding-right: 30px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+footer .copy {
+    color: #5C5C5C;
+    font-size: 12px;
+    font-weight: 700;
+}
